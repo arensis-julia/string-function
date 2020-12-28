@@ -1,10 +1,10 @@
 ## Convert string to numeric format
 - **atoi**: convert string format 'str' to integer format 'int' (32 bit)
-- **atol**: convert string format 'str' to integer format 'long' (64 bit)<br /><br /><br /><br />
+- **atol**: convert string format 'str' to integer format 'long' (64 bit)<br /><br />
 
 
 ## Convert numeric format to string
-- **int2str**: convert integer 'num' to string and store the result into the buffer 'dest'<br /><br /><br /><br />
+- **int2str**: convert integer 'num' to string and store the result into the buffer 'dest'<br /><br />
 
 
 ## String manipulation
@@ -12,7 +12,7 @@
 - **strncpy**: copy n bytes of string from 'src' to string buffer 'dest'
 - **strcat**: concatenate string of 'src' after string of 'dest'
 - **strncat**: concatenate n bytes of string 'src' after string of 'dest'
-- **strdup**: copy string 'str' to dinamically allocated memory and return the address<br /><br /><br /><br />
+- **strdup**: copy string 'str' to dinamically allocated memory and return the address<br /><br />
 
 
 ## String examination
@@ -23,9 +23,9 @@
 - **strpbrk**: find the location where any character of string 'str' first comes out from string 'str1'
 - **strstr**: find the location where substring 'needle' first comes out from string 'haystack'
 - **strtok**: find every locations where any character in string 'delim' comes out from string 'str' and tokenize
-- **strtok_r**: same as **strtok** but use variable 'save_ptr' to save the location of next token<br /><br /><br /><br />
+- **strtok_r**: same as **strtok** but use variable 'save_ptr' to save the location of next token<br /><br />
 
 
 ## Array manipulation
 - **memcpy**: copy n bytes from memory address 'src' to another address 'dest'
-- **memset**: change the value of address [str, str+n) to the character 'c'<br /><br /><br /><br />
+- **memset**: change the value of address [str, str+n) to the character 'c'<br /><br />
